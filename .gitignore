@@ -1,0 +1,71 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Java 빌드 결과물
+*.class
+
+# 패키징된 바이너리 파일
+*.jar
+*.war
+*.ear
+
+# 로그 파일
+*.log
+logs/
+
+# Maven
+target/
+
+# 운영체제에서 생성하는 파일
+.DS_Store
+Thumbs.db
+
+# 환경 변수 파일
+.env
+
+# 보안 설정 파일 (비밀번호, API 키가 담겨 있을 수 있음)
+application.properties
+application.yml
+
+# 테스트 리포트 결과나 캐시
+test-output/
+.cache/
+
+# 임시 파일
+*.swp
+*.tmp
+*.bak
+
+# 기타 IDE에서 생성하는 파일
+*.vscode/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
